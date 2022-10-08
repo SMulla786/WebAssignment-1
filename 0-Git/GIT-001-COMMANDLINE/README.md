@@ -4,6 +4,7 @@
 - Create a file called first.txt.
 - Put your name in first.txt
 - Display the file content in terminal
+- learning
 
 <hr>
 
