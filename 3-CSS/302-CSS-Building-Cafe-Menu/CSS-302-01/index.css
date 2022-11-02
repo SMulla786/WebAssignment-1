@@ -1,1 +1,50 @@
 /* start your css here */
+*{
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    
+  }
+.container
+{
+    border-radius: 10px;
+    background-color: burlywood;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 526px;
+    /*  max-height: 500px;*/
+    padding: 25px;
+}
+h1, .established,h2,h3,h4{
+    text-align: center;
+    
+}
+.itm
+{
+    display: flex; 
+    justify-content: space-between;
+
+    margin-top: -28px;
+}
+p{
+    font-weight: 600;
+}
+img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+    margin-bottom: 10px;
+}
+hr{
+    border: 2px solid brown;
+}
+h1{
+    font-size: 40px;
+}
