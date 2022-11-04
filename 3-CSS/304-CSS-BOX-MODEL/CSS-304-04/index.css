@@ -1,1 +1,21 @@
 /* start your css here */
+* {
+  gap: 7.8%;
+  margin-top: 0;
+}
+.main {
+  position: fixed;
+  display: flex;
+  height: 20px;
+  width: 100%;
+  box-shadow: 0 5px 20px gray;
+  background: linear-gradient(black, rgb(62, 59, 59));
+  padding: 15px;
+  color: gray;
+  margin-left: -8px;
+}
+
+i:hover,
+h3:hover {
+  color: white;
+}
