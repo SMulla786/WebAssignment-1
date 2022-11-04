@@ -1,1 +1,61 @@
 /* start your styling here  */
+* {
+  box-sizing: border-box;
+}
+.typing {
+  display: inline;
+  height: 40px;
+}
+.btn {
+  display: flex;
+
+  width: 48px;
+  height: 33px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 2px black;
+  background-color: #016064;
+  color: white;
+}
+.main {
+  max-width: 300px;
+  background-color: rgb(239, 71, 112);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px black;
+  margin: 10px;
+}
+#op {
+  background-color: rgb(255, 209, 102);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+#nums {
+  background-color: rgb(38, 84, 123);
+}
+input {
+  border-radius: 10px;
+  width: 185px;
+  /* height: 15px; */
+  background-color: rgb(38, 84, 123);
+  box-shadow: 0px 3px 2px black;
+  height: 34px;
+  justify-content: right;
+}
+.outer {
+  display: flex;
+  width: 350px;
+  max-height: 800px;
+  background-color: rgb(38, 84, 123);
+  padding: 15px;
+  border-radius: 10px;
+}
