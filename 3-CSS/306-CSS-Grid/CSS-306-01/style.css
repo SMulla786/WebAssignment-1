@@ -1,1 +1,48 @@
-/* start your styling here  */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.small-grid {
+  border: 3px solid black;
+  height: 60px;
+  width: 90px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 208, 174) 0%,
+    rgb(251, 126, 179) 90%
+  );
+  position: relative;
+}
+
+.big-grid {
+  border: 3px solid black;
+  height: 126px;
+  width: 320px;
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+.medium-grid {
+  border: 3px solid black;
+  height: 60px;
+  width: 186px;
+  background: linear-gradient(
+    70deg,
+    rgb(113, 195, 250) 35.6%,
+    rgb(121, 235, 224) 99.2%
+  );
+}
+.bottom-grid {
+  border: 3px solid black;
+  height: 127px;
+  width: 225px;
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+.middle-grid,
+.bottom-grid,
+.big-grid,
+.small-grid,
+.medium-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
