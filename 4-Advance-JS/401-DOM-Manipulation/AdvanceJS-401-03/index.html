@@ -7,6 +7,74 @@
     <title>Document</title>
   </head>
   <body>
-    Start your code here
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url(f1.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat; */
+      }
+      .main_container {
+        display: flex;
+        width: 1000px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 2px solid black;
+      }
+      .btn {
+        cursor: pointer;
+        border-inline: none;
+        border: none;
+        background-color: rgba(244, 245, 245, 0);
+        padding: 16px;
+        color: white;
+        font-size: 4em;
+      }
+      .btn:hover {
+        background-color: rgba(12, 12, 12, 0.491);
+        color: white;
+      }
+      .img_container {
+        display: flex;
+        position: relative;
+        width: 1000px;
+      }
+      .prev {
+        position: absolute;
+
+        align-self: center;
+        z-index: 1;
+      }
+      .next {
+        position: absolute;
+        right: 0;
+        align-self: center;
+        z-index: 1;
+      }
+      img {
+        width: 100%;
+      }
+      .next {
+        justify-self: flex-end;
+      }
+    </style>
+    <div class="main_container">
+      <div class="img_container">
+        <button class="prev btn" onclick="previous()" value="0">❮</button
+        ><img id="img" src="f1.jpg" alt="" /><button
+          class="next btn"
+          onclick="next()"
+          value="1"
+        >
+          ❯
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
