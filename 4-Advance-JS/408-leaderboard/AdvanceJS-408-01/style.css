@@ -1,64 +1,123 @@
-html,
-body {
-  width: 50px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html, body {
+  height: 100%;
+  width: 100%;
 }
+* {
+            box-sizing: border-box;
+            margin: 0;
+        }
 
-.button {
-  display: flex;
-  gap: 10px;
-}
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
+        }
 
-.input {
-  height: 50px;
-  width: 200px;
-  border: 1px solid #e6c7c2;
-  outline: none;
-  font-size: x-large;
-}
-input:focus {
-  border: 3px solid #e6c7c2;
-}
+        .main-div {
+            background-color: white;
+            height: 100vh;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
 
-.add {
-  background-color: #e6c7c2;
-  width: 150px;
-  border: none;
-  color: white;
-  font-size: larger;
-}
+        .header {
+            text-align: center;
+            margin-top: 40px;
+        }
 
-input::placeholder {
-  font-size: x-large;
-}
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+          flex-wrap: wrap;
+        }
 
-i {
-  color: rgba(255, 0, 0, 0.678);
-}
-p {
-  font-size: larger;
-}
-.date-class {
-  color: grey;
-  font-size: small;
-}
-.name-date {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.6rem;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+        .player-data {
+            display: flex;
+            align-items: center;
+            background-color: #E6C7C2;
+            height: 80px;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        .details {
+            display: flex;
+            gap: 60px;
+            margin-right: 100px;
+            justify-content: flex-start;
+            align-items: center;
+            height: auto;
+            width: 60%;
+          
+        }
+
+        .circle {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            display: flex;
+            gap: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .input {
+            height: 50px;
+            width: 200px;
+            border: 1px solid #E6C7C2;
+            outline : none;
+            font-size : x-large;
+        }
+         input:focus{
+           border: 3px solid  #E6C7C2;
+           
+         }
+
+        .add {
+            background-color: #E6C7C2;
+            width: 150px;
+            border: none;
+            color: white;
+            font-size: larger;
+        }
+
+        input::placeholder {
+            font-size: x-large;
+        }
+        
+        i{
+            color : rgba(255, 0, 0, 0.678);
+        }
+        p{
+            font-size: larger;
+        }
+        .date-class{
+            color : grey;
+            font-size: small;            
+        }
+          .name-date{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 0.6rem;
+          }
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+         }
