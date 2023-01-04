@@ -1,0 +1,64 @@
+html,
+body {
+  width: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input {
+  height: 50px;
+  width: 200px;
+  border: 1px solid #e6c7c2;
+  outline: none;
+  font-size: x-large;
+}
+input:focus {
+  border: 3px solid #e6c7c2;
+}
+
+.add {
+  background-color: #e6c7c2;
+  width: 150px;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+input::placeholder {
+  font-size: x-large;
+}
+
+i {
+  color: rgba(255, 0, 0, 0.678);
+}
+p {
+  font-size: larger;
+}
+.date-class {
+  color: grey;
+  font-size: small;
+}
+.name-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
