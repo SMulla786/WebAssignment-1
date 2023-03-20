@@ -105,7 +105,7 @@ function passwordValidation(password, value, text) {
 var flag4 = false;
 function phoneValidation(number, value, text) {
   flag4 = false;
-  if (number.match(/\d{3}\-\d{3}\-\d{4}$/)) {
+  if (number.match(/^\d{10}$/)) {
     flag4 = true;
   }
 
