@@ -21,6 +21,11 @@ function renderEmojis() {
         break;
       }
     }
+
+    if (emoji.description.toLowerCase().includes(inputValue.toLowerCase())) {
+      flag = true;
+    }
+
     return flag;
   });
   for (let i = 0; i < emojiListCopy.length; i++) {

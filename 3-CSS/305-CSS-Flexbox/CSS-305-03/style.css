@@ -1,1 +1,18 @@
 /* start your styling here  */
+.main {
+  display: flex;
+
+  height: 400px;
+  width: 700px;
+}
+.sub-main {
+  display: flex;
+  width: ;
+  height: 90%;
+}
+.sedan {
+  display: flex;
+  width: 33%;
+  max-height: 390px;
+  background: rgb(227, 136, 38);
+}
